@@ -26,7 +26,7 @@ The bundled toolset will be published as docker images with version numbers. Ple
 <details>
 
 ```
-docker build -t stix-suite:1.0.0 -f versions/1.0.0/Dockerfile-1.0.0 versions/1.0.0/
+docker build -t stix-suite:1.0.0 -f Dockerfile  versions/1.0.0/
 docker tag 784ea063777c zhengxc1993/stix-suite:1.0.0
 docker push zhengxc1993/stix-suite:1.0.0
 ```
