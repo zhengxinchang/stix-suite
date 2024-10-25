@@ -10,6 +10,23 @@ This repository contains all related tools for using STIX. It includes:
 The bundled toolset will be published as docker images with version numbers. Please note that the version is NOT the stix version, it is the stix-suite version. 
 
 
+## How to use
+
+Download the docker image with specific version
+
+```
+docker pull zhengxc1993/stix-suite:1.0.0
+
+```
+
+Run tools
+
+```
+docker run --rm  zhengxc1993/stix-suite:1.0.0 stix 
+
+```
+
+
 ## Versions
 
 
