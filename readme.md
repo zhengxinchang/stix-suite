@@ -44,10 +44,11 @@ docker run --rm  zhengxc1993/stix-suite:<version> stix
 
 <details>
 
+```bash
 docker build -t stix-suite:1.0.0 -f Dockerfile  versions/1.0.1/
 docker tag 784ea063777c zhengxc1993/stix-suite:1.0.1
 docker push zhengxc1993/stix-suite:1.0.1
-
+```
 
 </details>
 
@@ -63,7 +64,7 @@ docker push zhengxc1993/stix-suite:1.0.1
 
 <details>
 
-```
+```bash
 docker build -t stix-suite:1.0.0 -f Dockerfile  versions/1.0.0/
 docker tag 784ea063777c zhengxc1993/stix-suite:1.0.0
 docker push zhengxc1993/stix-suite:1.0.0
