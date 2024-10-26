@@ -15,20 +15,41 @@ The bundled toolset will be published as docker images with version numbers. Ple
 Download the docker image with specific version
 
 ```
-docker pull zhengxc1993/stix-suite:1.0.0
+docker pull zhengxc1993/stix-suite:<version>
 
 ```
 
 Run tools
 
 ```
-docker run --rm  zhengxc1993/stix-suite:1.0.0 stix 
+docker run --rm  zhengxc1993/stix-suite:<version> stix 
 
 ```
 
 
 ## Versions
 
+
+### 1.0.1
+
+- stix[de50db8]
+
+- giggle[4071cb7]
+
+- excord[v0.2.4]
+
+- excord-lr[v0.1.17]
+
+- stix-merge[1.0.0]
+
+<details>
+
+docker build -t stix-suite:1.0.0 -f Dockerfile  versions/1.0.1/
+docker tag 784ea063777c zhengxc1993/stix-suite:1.0.1
+docker push zhengxc1993/stix-suite:1.0.1
+
+
+</details>
 
 ### 1.0.0
 
@@ -49,3 +70,4 @@ docker push zhengxc1993/stix-suite:1.0.0
 ```
 
 </details>
+

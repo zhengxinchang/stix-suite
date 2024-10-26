@@ -1,8 +1,5 @@
 FROM ubuntu:22.04
-COPY ./bin/stix /usr/bin/
-COPY ./bin/giggle /usr/bin/
-COPY ./bin/excord /usr/bin/
-COPY ./bin/excord-lr /usr/bin/
+COPY ./bin/* /usr/bin/
 ENV PATH="/usr/bin/:${PATH}"
 
 RUN apt-get update && apt-get install -y \
